@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".administradorlibro">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="317dp"
+        android:layout_height="571dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:paddingBottom="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Id_objeto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="NGRESE ISBN DEL OBJETO" />
+
+            <EditText
+                android:id="@+id/isvconsulta_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="ISBN" />
+
+            <Button
+                android:id="@+id/button_buscaridLibro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="buscar" />
+
+            <TextView
+                android:id="@+id/ISV"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:text="ISBN" />
+
+            <EditText
+                android:id="@+id/ISV_editText"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/nombreL_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NOMBRE" />
+
+            <EditText
+                android:id="@+id/nombreL_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+
+            <TextView
+                android:id="@+id/portada_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Portada" />
+
+            <Button
+                android:id="@+id/imagen_buttonLibro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subir imagen" />
+
+            <ImageView
+                android:id="@+id/imageViewSubir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxHeight="400dp"
+                android:adjustViewBounds="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                tools:src="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/fecha_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fecha de publicacion" />
+
+            <EditText
+                android:id="@+id/fecha_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Nopag_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Numero de paginas" />
+
+            <EditText
+                android:id="@+id/noPag_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/pais_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PAIS" />
+
+            <EditText
+                android:id="@+id/pais_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/pdf_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PDF" />
+
+            <Button
+                android:id="@+id/pdf_buttonLibro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SUBIR PDF" />
+
+            <TextView
+                android:id="@+id/idLibro_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID Libro" />
+
+            <EditText
+                android:id="@+id/IDLibro_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/edicion_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="edicion" />
+
+            <EditText
+                android:id="@+id/edicion_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/editar_buttonLibro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EDITAR" />
+
+            <Button
+                android:id="@+id/borrar_buttonLibro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BORRAR" />
+
+            <Button
+                android:id="@+id/crear_buttonLibro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Crear" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

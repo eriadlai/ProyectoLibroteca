@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">libroApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_colecciones">Colecciones</string>
+    <string name="title_historial">Historial</string>
+    <string name="title_favoritos">Favoritos</string>
+    <string name="title_busqueda">Busqueda</string>
+    <string-array name="Libros">
+        <item>LibroGus</item>
+        <item>Libro2</item>
+        <item>Libro3</item>
+        <item>LIBRO4</item>
+    </string-array>
+
+    <string-array name="Autor">
+        <item>Gustavo1</item>
+        <item>Gustavo2</item>
+        <item>Gustavo3</item>
+        <item>GUSTAVO4</item>
+    </string-array>
+
+    <string-array name="Descripcion">
+        <item>mi nombre es</item>
+        <item>mi nombre es</item>
+        <item>mi nombre es</item>
+        <item>mi nombre es</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_registroactivity">Registroactivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_administrador">administrador</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>

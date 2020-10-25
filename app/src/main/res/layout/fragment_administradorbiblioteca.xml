@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".administradorbiblioteca">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INGRESA EL NOMBRE DEL OBJETO" />
+
+            <EditText
+                android:id="@+id/busquedaNombre_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Nombre" />
+
+            <Button
+                android:id="@+id/buscarBiblioteca_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BUSCAR" />
+
+            <TextView
+                android:id="@+id/id_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID" />
+
+            <EditText
+                android:id="@+id/idBiblioteca_editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="ID" />
+
+            <TextView
+                android:id="@+id/nombreB_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NOMBRE" />
+
+            <EditText
+                android:id="@+id/nombreBiblioteca_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Nombre Biblioteca" />
+
+            <TextView
+                android:id="@+id/direccion_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DIRECCION" />
+
+            <EditText
+                android:id="@+id/direccionBiblioteca_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Direccion" />
+
+            <TextView
+                android:id="@+id/nombreC_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CIUDAD" />
+
+            <EditText
+                android:id="@+id/nombreCiudad_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Nombre ciudad" />
+
+            <TextView
+                android:id="@+id/publica_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PUBLICA" />
+
+            <EditText
+                android:id="@+id/tipoBiblioteca_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="TIPO DE BIBLIOTECA" />
+
+            <Button
+                android:id="@+id/editarBiblioteca_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EDITAR" />
+
+            <Button
+                android:id="@+id/borrarBiblioteca_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BORRAR" />
+
+            <Button
+                android:id="@+id/crearBiblioteca_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CREAR" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

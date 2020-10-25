@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".borrarLink">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID LIBRO " />
+
+        <EditText
+            android:id="@+id/ID1_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID" />
+
+        <EditText
+            android:id="@+id/ID2_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/borrarLA_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BORRAR LIBRO-AUTOR" />
+
+        <Button
+            android:id="@+id/borrarLB_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BORRAR LIBRO-BIBLIOTECA" />
+
+        <Button
+            android:id="@+id/borrarLG_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BORRAR LIBRO-GENERO" />
+
+        <Button
+            android:id="@+id/borrarLE_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BORRAR LIBRO-EDITORIAL" />
+
+    </LinearLayout>
+
+</FrameLayout>
